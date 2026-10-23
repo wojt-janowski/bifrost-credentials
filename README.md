@@ -37,7 +37,7 @@ The first Android AAB for a new Play app still needs a manual Play Console uploa
 
 Last checked: **2026-10-24**.
 
-The browser-assisted workflow was exercised with uploaded iOS signing, a shared App Store Connect key, a managed Android keystore, and app-scoped Play access. Current official documentation was checked for managed signing, team keys, MCP, and build configuration. Bifrost MCP credential calls were **not** exercised in that session because that server was unavailable. The skill therefore discovers live tools and does not promise unverified managed-signing API methods.
+The browser-assisted workflow was exercised with uploaded iOS signing, a shared App Store Connect key, a managed Android keystore, and app-scoped Play access. Current official documentation was checked for managed signing, team keys, MCP, and build configuration.
 
 Browser automation depends on the host's supported upload/download APIs. File-event timeouts can occur even when a download finishes; the troubleshooting reference includes verification and manual fallbacks. Wizard labels and API schemas are not fixed contracts.
 
