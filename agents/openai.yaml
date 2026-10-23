@@ -1,0 +1,4 @@
+interface:
+  display_name: "Bifrost credentials"
+  short_description: "Set up mobile signing with MCP and managed credentials"
+  default_prompt: "Use $bifrost-credentials to set up signing and store-upload credentials for this app."

@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+/credentials/
+.env
+.env.*
+*.p8
+*.p12
+*.key
+*.jks
+*.keystore
+*.mobileprovision
+*.cer
+*.crt
+*.csr
+*.pem
